@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mongo-crud
+    version: debugVersion
+    key: supersecretkey12
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mydb
+server:
+  context-path: /mongotest
